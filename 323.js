@@ -38,3 +38,10 @@ class Solution {
         return numComponents
     }
 }
+
+/*
+My solution is in Neetcode format.
+
+Need to study how to do the DSU solution instead of DFS for my own benefit.
+
+*/
