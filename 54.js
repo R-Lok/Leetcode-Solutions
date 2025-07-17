@@ -1,6 +1,17 @@
 //54. Spiral Matrix
 /* 
 Revisit this problem in future - solution could be further optimized 
+
+Initial thinking:
+- Need to adjust top/bottom left/right boundaries per iteration
+- Can figure out top/bottom/left/right using the iteration
+- Make use of a counter to know when to stop the iterations (when counter === number of elements in matrix)
+
+Notes:
+- Need to check for counter === numElements within while loop, else appending additional elements which will lead to infinite loop
+- Above would occur if the square is odd numbers e.g. 3x3, (because it should terminate after first for loop of second iteration)
+    , but it keeps going (it should stop at the 5)
+
 */
 
 function spiralOrder(matrix) {
