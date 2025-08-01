@@ -2,7 +2,7 @@
 /**
 Kind of overthinked the solution for this one initially. 
 - Solutions are typically simpler than expected, need to start thinking with simpler solutions first
-
+- Revisit in future
  */
 
 function trap(height) {
